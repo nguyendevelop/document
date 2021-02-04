@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <!-- CSS LIBRARY -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="css/vit-gallery.css">
+    <link rel="shortcut icon" type="text/css" href="images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css" />
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header-sky">
+        <div class="container">
+            <!--HEADER-TOP-->
+            <div class="header-top no-border">
+                <div class="header-top-left">
+                    <span><i class="ion-ios-location-outline"></i> 16 Dinh Liet Street, Hanoi, Vietnam</span>
+                    <span><i class="fa fa-phone" aria-hidden="true"></i> +8424 39321888</span>
+                </div>
+                <div class="header-top-right">
+                    <ul>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">ENG <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a href="#">ENG</a></li>
+                                <li><a href="https://translate.google.com/translate?hl=vi&sl=en&tl=vi&u=https%3A%2F%2Ftestnguyendevelop.000webhostapp.com%2F&sandbox=1">VN</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="signin.html" title="SIGN IN" class="dropdown-toggle">SIGN IN</a></li>
+                        <li class="dropdown"><a href="signup.html" title="SIGN UP" class="dropdown-toggle">SIGN UP</a></li>
+                                                
+                    </ul>
+                </div>
+            </div>
+            <!-- END/HEADER-TOP -->
+        </div>
+        <!-- MENU-HEADER -->
+        <div class="menu-header">
+            <nav class="navbar navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header ">
+                        
+                        <a class="navbar-brand" href="index.html" title="Skyline"><img src="images/Home-1/sky-logo-header.png" alt="#"></a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html" title="">Home</a></li>
+                            <li><a href="room.html" title="">Room</a></li>
+                            <li><a href="gallery_1.html" title="">Gallery</a></li>
+                            <li><a href="event_page_1.html">Events </a></li>
+                            <li><a href="reservation_1.html" title="">Check out</a></li>
+                            <li><a href="about.html" title="About">About</a></li>
+                            <li><a href="contact.html" title="Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- END / MENU-HEADER -->
+    </header>
+    <!-- END-HEADER -->
+    <section class="banner-tems text-center">
+        <div class="container">
+            <div class="banner-content">
+                <h2>Contact us</h2>
+                <p>Welcome to skyline hotel</p>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section class="section-contact">
+        <div class="container">
+            <div class="contact">
+                <div class="row">
+                    <div class="col-md-6 col-lg-5">
+                        <div class="text">
+                            <h2>Contact</h2>
+                            <p>During your stay, we will adhere to our Hotel Service Commitment by providing you with outstanding service. If you encounter any concerns while staying with us, please contact the Front Desk immediately to allow us the opportunity to correct the situation. Our location, comprehensive facilities and total commitment service will help to make your stay in Hanoi a truly unforgettable experience.</p>
+                            <ul>
+                                <li><i class=" fa ion-ios-location-outline"></i> 16 Dinh Liet Street, Hanoi, Vietnam</li>
+                                <li><i class="fa fa-phone" aria-hidden="true"></i> +8424 39321888</li>
+                                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>contact@skylinehotel.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-lg-offset-1">
+                        <div class="contact-form">
+                            <form method="post" onsubmit="return postToGoogle();">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <input id="nameField" name="entry.881773734" type="text" class="field-text" placeholder="Name">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input id="emailField" name="entry.1618212381" type="email" class="field-text"placeholder="Email">
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <textarea id="messField" name="entry.273781435" cols="30" rows="10" class="field-textarea" placeholder="Write what do you want"></textarea>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <button type="submit" id="send" name="send" class="btn btn-room">SEND</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <h3 id="success-msg" class="text-center" style="display: none;"> Your Message has been sended!</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END / CONTACT -->
+    <!-- MAP -->
+    <div class="section-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6124.155496132579!2d144.95267262759506!3d-37.81807247133261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4dd58ef1f9%3A0x924c91f561a4fd11!2s121+King+St%2C+Melbourne+VIC+3000%2C+%C3%9Ac!5e0!3m2!1svi!2s!4v1510819444662" height="470" allowfullscreen></iframe>
+    </div>
+    <!-- END / MAP -->
+    <!--FOOTER-->
+    <footer class="footer-sky">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1">
+                        <div class="icon-email">
+                            <a href="#" title="Email"><img src="images/Home-1/footer-top-icon-l.png" alt="Email" class="img-responsive"></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-5">
+                        <div class="textbox">
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="Your email address" aria-label="Search for...">
+                                        <button class="btn btn-secondary" type="button">
+                                            <i class="ion-android-send"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6 text-right">
+                        <div class="footer-icon-l">
+                            <a href="#" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" title="Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                            <a href="#" title="Youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                            <a href="#" title="Isnstagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- /footer-top -->
+        <div class="footer-mid">
+            <div class="container">
+                <div class="row padding-footer-mid">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="footer-logo text-center list-content">
+                            <a href="index.html" title="Skyline"><img src="images/Home-1/sky-logo-footer.png" alt="Image"></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1  ">
+                        <div class="list-content">
+                            <ul>
+                                <li><a href="tems_condition_1.html" title="">Site Map</a></li>
+                                <li><a href="tems_condition_1.html" title="">Term & Conditions</a></li>
+                                <li><a href="tems_condition_1.html" title="">Privacy Policy</a></li>
+                                <li><a href="contact.html" title="">Help</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1 ">
+                        <div class="list-content ">
+                            <ul>
+                                <li><a href="attractions.html" title="">Our Location</a></li>
+                                <li><a href="contact.html" title="">Career</a></li>
+                                <li><a href="about.html" title="">About Us</a></li>
+                                <li><a href="contact.html" title="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1">
+                        <div class="list-content ">
+                            <ul>
+                                <li><a href="contact.html" title="">FAQS</a></li>
+                                <li><a href="blog.html" title="">News</a></li>
+                                <li><a href="gallery_1.html" title="">Photo & Video</a></li>
+                                <li><a href="restaurant_1.html" title="">Restaurant</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+                        Skyline Hotel by <a href="#" title="Nguyễn Đăng Qúy">ndquy.19it4</a> @ sict.udn.vn
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+                        <div class="payments text-right">
+                            <ul>
+                                <li>
+                                    <a href="#" title="Paypal"><img src="images/Home-1/Paypal.png" alt="Paypal"></a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Visa"><img src="images/Home-1/Visa.png" alt="Visa"></a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Master"><img src="images/Home-1/Master-card.png" alt="Master"></a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Discover"><img src="images/Home-1/Discover.png" alt="Discover"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END / FOOTER-->
+    <!--SCOLL TOP-->
+    <a href="#" title="sroll" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+    <!--END / SROLL TOP-->
+    <!-- LOAD JQUERY -->
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/vit-gallery.js"></script>
+    <script type="text/javascript" src="js/jquery.countTo.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.min.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/jquery.littlelightbox.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDyCxHyc8z9gMA5IlipXpt0c33Ajzqix4"></script>
+    <!-- Custom jQuery -->
+    <script type="text/javascript" src="js/sky.js"></script>
+    <script>
+function postToGoogle() {
+    //Xử lý lấy dữ liệu các input vào biến tương ứng thông qua ID của input
+    var name = $("#nameField").val();
+    var email = $("#emailField").val();
+    var mess = $("#messField").val();
+    //Đoạn giữa này có thể sử dụng để validate dữ liệu 1 lần nữa hoăc... bỏ qua nhé :D
+
+    //Xử lý gửi dữ liệu lên form
+    $.ajax({
+        //Chỉ định đích gửi dữ liệu đến: là form response đã tạo ở trên
+        url: "https://docs.google.com/forms/d/e/1FAIpQLSffto31JxGigmCJ92jDB9q3KutRyCQEp8GXDjm_syTvOxfiAQ/formResponse?",
+        //URL lấy từ link đã note ở trên nhé
+        data: { //gán các giá trị tương ứng vào các Input name tương ứng đã lấy ở trên
+            "entry.1099345086": name,
+            "entry.989465500": email,
+            "entry.2087537767": mess
+        },
+        type: "POST",
+        dataType: "jsonp", //các bạn có thể để xml, nhưng khi bật console lên sẽ thấy báo đỏ lòm vì ko cho cross, còn cái này nó vẫn cảnh báo nhưng màu xám thôi, ko đỏ :v
+        success: function(d)
+    {}, //do đã bảo ở trên là nó ko cho cross đâu, nên khi gửi data xong ko trả về success được, ko cần điền cái này nhé
+        error: function(x, y, z) {
+            $('#success-msg').show(); //hiện ra cái mess báo thành công khi gửi xong
+        }
+    });
+
+    return false;
+}
+</script>
+</body>
+
+</html>
